@@ -11,7 +11,7 @@ The setup instructions of the above 2 environments are below.
 > Note: I use MacOS, Anaconda and Python 3.6. For other settings, please refer to Catalyst's [installation manual](https://enigma.co/catalyst/install.html)
 
 
-## Setup & Installation 
+## Installation 
 
 The 2 running environments both require we install Catalyst first. It is recommended to install it in a separate virtual environment. 
 
@@ -21,7 +21,7 @@ Download this repo. Then
 cd ~/Documents/github/catalyst-algotrade
 conda env create -f etc/python3.6-environment.yml
 ```
-This steps will take a while, as the config file will download the catalyst library and all the dependencies of it.
+This step will take a while, as the config file will download the catalyst library and all the dependencies of it.
 
 If you want to use Catalyst in Terminal, then activate the envirnoment by:
 
